@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: rabbitmq-springboot
+  rabbitmq:
+    host: 192.168.142.161
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /amqp_test
